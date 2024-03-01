@@ -22,7 +22,7 @@ Os dados abaixo seguem o seguinte padrão:
 Utilizou-se a *Distância Euclidiana* para determinar a distância entre os eventos. 
 Para $N$ pontos, considere $P_i = (p_{i1}, p_{i2}, \dots, p_{in})$, para $i = 1, 2, \dots, N$. A distância euclidiana média entre todos os pontos é dada por:
 
-[D = \frac{1}{{N(N-1)}} \sum_{i=1}^{N} \sum_{j=1, j \neq i}^{N} d(P_i, P_j)](https://latex.codecogs.com/svg.latex?d(P_1,P_2)=%5Csqrt%7B%28x_2-x_1%29%5E2+%28y_2-y_1%29%5E2+%28z_2-z_1%29%5E2%7D)
+https://latex.codecogs.com/svg.latex?d(P_1,P_2)=%5Csqrt%7B%28x_2-x_1%29%5E2+%28y_2-y_1%29%5E2+%28z_2-z_1%29%5E2%7D
 
 exemplo:
 
