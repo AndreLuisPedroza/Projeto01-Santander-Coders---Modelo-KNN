@@ -24,7 +24,6 @@ Para $N$ pontos, considere $P_i = (p_{i1}, p_{i2}, \dots, p_{in})$, para $i = 1,
 
 D = \frac{1}{{N(N-1)}} \sum_{i=1}^{N} \sum_{j=1, j \neq i}^{N} d(P_i, P_j)
 
-
 exemplo:
 
 carteira1 : (x: 1, y: 1, z: 1)
