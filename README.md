@@ -20,9 +20,9 @@ Os dados abaixo seguem o seguinte padrão:
 - Metodologia
   
 Utilizou-se a *Distância Euclidiana* para determinar a distância entre os eventos. 
-Para $N$ pontos, considere $P_i = (p_{i1}, p_{i2}, \dots, p_{in})$, para $i = 1, 2, \dots, N$. A distância euclidiana média entre todos os pontos é dada por:
+A distância euclidiana média entre todos os pontos é dada por:
 
-https://latex.codecogs.com/svg.latex?d(P_1,P_2)=%5Csqrt%7B%28x_2-x_1%29%5E2+%28y_2-y_1%29%5E2+%28z_2-z_1%29%5E2%7D
+![Fórmula da distância euclidiana](https://latex.codecogs.com/svg.latex?d(P_i,P_j)=%5Csqrt%7B%28x_j-x_i%29%5E2+%28y_j-y_i%29%5E2%7D)
 
 exemplo:
 
