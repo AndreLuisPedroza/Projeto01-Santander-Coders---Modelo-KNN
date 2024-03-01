@@ -20,13 +20,11 @@ Os dados abaixo seguem o seguinte padrão:
 - Metodologia
   
 Utilizou-se a *Distância Euclidiana* para determinar a distância entre os eventos. 
-A distância euclidiana em $n$ dimensões entre um ponto $P$ e $n$ pontos $Q_1, Q_2, \ldots, Q_n$ é dada por:
+Para $N$ pontos, considere $P_i = (p_{i1}, p_{i2}, \dots, p_{in})$, para $i = 1, 2, \dots, N$. A distância euclidiana média entre todos os pontos é dada por:
 
-$$
-\text{dist}(P, Q_i) = \sqrt{\sum_{j=1}^{n} (q_{ij} - p_j)^2}
-$$
-
-onde $P = (p_1, p_2, \ldots, p_n)$ e $Q_i = (q_{i1}, q_{i2}, \ldots, q_{in})$ são as coordenadas dos pontos.
+\[
+D = \frac{1}{{N(N-1)}} \sum_{i=1}^{N} \sum_{j=1, j \neq i}^{N} d(P_i, P_j)
+\]
 
 exemplo:
 
